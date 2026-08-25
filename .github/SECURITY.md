@@ -7,7 +7,7 @@ your contributions.
 ## Supported Versions
 
 Security updates are provided only for the latest released version of this
-add-on. Users are strongly encouraged to keep their installations up to date.
+app. Users are strongly encouraged to keep their installations up to date.
 
 | Version        | Supported          |
 | -------------- | ------------------ |
@@ -22,7 +22,7 @@ discussions, or pull requests.**
 Instead, report them privately through GitHub's private vulnerability
 reporting:
 
-[**Report a vulnerability**](https://github.com/hassio-addons/addon-thelounge/security/advisories/new)
+[**Report a vulnerability**](https://github.com/hassio-addons/app-thelounge/security/advisories/new)
 
 If for any reason you are unable to use GitHub's private vulnerability
 reporting, you may also reach out to the maintainer by email at
@@ -32,7 +32,7 @@ When reporting, please include as much of the following as possible:
 
 - A clear description of the vulnerability and its potential impact.
 - Steps to reproduce, or a proof of concept.
-- Affected version(s) of the add-on.
+- Affected version(s) of the app.
 - Any known mitigations or workarounds.
 
 ## Disclosure Timeline
@@ -61,10 +61,10 @@ The following are **not** considered security vulnerabilities in this project:
 - Issues in the Home Assistant Supervisor or Operating System; please report
   those directly to the
   [Home Assistant project](https://github.com/home-assistant/core/security/policy).
-- Exposure of the add-on to untrusted networks as a result of the user's own
+- Exposure of the app to untrusted networks as a result of the user's own
   configuration, such as publishing the direct port without SSL.
 
 ## Scope
 
-This security policy covers The Lounge Home Assistant add-on published from
+This security policy covers The Lounge Home Assistant app published from
 this repository, including its container images and configuration.
