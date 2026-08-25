@@ -1,7 +1,7 @@
 #!/command/with-contenv bashio
 # shellcheck shell=bash
 # ==============================================================================
-# Home Assistant Community Add-on: The Lounge
+# Home Assistant Community App: The Lounge
 # Runs The Lounge server
 # ==============================================================================
 export THELOUNGE_HOME=/data/thelounge

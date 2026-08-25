@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: The Lounge
+# Home Assistant Community App: The Lounge
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -18,7 +18,7 @@ A self-hosted web IRC client that uses a modern and sleek interface with
 support for theming, push notifications, link previews, file uploads and
 more. Fully cross-platform and mobile friendly.
 
-[:books: Read the full add-on documentation][docs]
+[:books: Read the full app documentation][docs]
 
 ![Screenshot][screenshot]
 
@@ -28,7 +28,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -54,11 +54,11 @@ The original setup of this repository is by [Timmo][timmo].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## We have got some Home Assistant add-ons for you
+## We have got some Home Assistant apps for you
 
 Want some more functionality to your Home Assistant instance?
 
-We have created multiple add-ons for Home Assistant. For a full list, check out
+We have created multiple apps for Home Assistant. For a full list, check out
 our [GitHub Repository][repository].
 
 ## License
@@ -87,22 +87,22 @@ SOFTWARE.
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/timmo
-[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-thelounge.svg
-[commits]: https://github.com/hassio-addons/addon-thelounge/commits/main
-[contributors]: https://github.com/hassio-addons/addon-thelounge/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/app-thelounge.svg
+[commits]: https://github.com/hassio-addons/app-thelounge/commits/main
+[contributors]: https://github.com/hassio-addons/app-thelounge/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-thelounge/blob/main/thelounge/DOCS.md
+[docs]: https://github.com/hassio-addons/app-thelounge/blob/main/thelounge/DOCS.md
 [forum]: https://community.home-assistant.io/?u=timmo001
-[github-actions-shield]: https://github.com/hassio-addons/addon-thelounge/workflows/CI/badge.svg
-[github-actions]: https://github.com/hassio-addons/addon-thelounge/actions
-[issue]: https://github.com/hassio-addons/addon-thelounge/issues
-[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-thelounge.svg
+[github-actions-shield]: https://github.com/hassio-addons/app-thelounge/workflows/CI/badge.svg
+[github-actions]: https://github.com/hassio-addons/app-thelounge/actions
+[issue]: https://github.com/hassio-addons/app-thelounge/issues
+[license-shield]: https://img.shields.io/github/license/hassio-addons/app-thelounge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-thelounge.svg
-[releases]: https://github.com/hassio-addons/addon-thelounge/releases
+[releases-shield]: https://img.shields.io/github/release/hassio-addons/app-thelounge.svg
+[releases]: https://github.com/hassio-addons/app-thelounge/releases
 [repository]: https://github.com/hassio-addons/repository
-[screenshot]: https://raw.githubusercontent.com/hassio-addons/addon-thelounge/main/images/screenshot.png
+[screenshot]: https://raw.githubusercontent.com/hassio-addons/app-thelounge/main/images/screenshot.png
 [timmo]: https://github.com/timmo001

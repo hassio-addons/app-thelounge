@@ -1,12 +1,12 @@
 #!/command/with-contenv bashio
 # shellcheck shell=bash
 # ==============================================================================
-# Home Assistant Community Add-on: The Lounge
+# Home Assistant Community App: The Lounge
 # Configures NGINX for use with thelounge
 # ==============================================================================
 
 # Generate direct access configuration, if enabled.
-if bashio::var.has_value "$(bashio::addon.port 80)"; then
+if bashio::var.has_value "$(bashio::app.port 80)"; then
     bashio::config.require.ssl
     bashio::var.json \
         certfile "$(bashio::config 'certfile')" \
