@@ -4,15 +4,9 @@
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
@@ -71,7 +65,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2019-2025 Timmo
+Copyright (c) 2019-2026 Timmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -91,24 +85,20 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/timmo
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-thelounge.svg
 [commits]: https://github.com/hassio-addons/addon-thelounge/commits/main
 [contributors]: https://github.com/hassio-addons/addon-thelounge/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [docs]: https://github.com/hassio-addons/addon-thelounge/blob/main/thelounge/DOCS.md
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=timmo001
 [github-actions-shield]: https://github.com/hassio-addons/addon-thelounge/workflows/CI/badge.svg
 [github-actions]: https://github.com/hassio-addons/addon-thelounge/actions
 [issue]: https://github.com/hassio-addons/addon-thelounge/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-thelounge.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-thelounge.svg
