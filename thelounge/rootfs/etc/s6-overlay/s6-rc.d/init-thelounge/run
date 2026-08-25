@@ -7,13 +7,26 @@
 declare users
 declare user_found
 
+readonly thelounge_defaults=/usr/local/share/.config/yarn/global/node_modules/thelounge/dist/defaults/config.js
+
 export THELOUNGE_HOME=/data/thelounge
 
 # Require a user
 bashio::config.require "users"
 
-if ! bashio::fs.directory_exists "/data/thelounge"; then
-    mkdir -p /data/thelounge/users
+mkdir -p /data/thelounge/users
+
+# The Lounge only writes its configuration file when the server starts, while
+# installing a theme already requires that file to be present. Seed it from the
+# packaged defaults, so themes install on the very first run as well.
+if ! bashio::fs.file_exists "/data/thelounge/config.js"; then
+    if bashio::fs.file_exists "${thelounge_defaults}"; then
+        cp "${thelounge_defaults}" /data/thelounge/config.js
+    else
+        bashio::log.warning \
+            "Could not find the packaged default configuration of The Lounge;" \
+            "themes might not install until the next restart."
+    fi
 fi
 
 # List current users
@@ -30,8 +43,11 @@ do
 done
 
 # Delete removed users
-for file in /data/thelounge/users/*
+for file in /data/thelounge/users/*.json
 do
+    # Guard against the glob not matching anything
+    bashio::fs.file_exists "${file}" || continue
+
     user_found=false
     for user in $users
     do
