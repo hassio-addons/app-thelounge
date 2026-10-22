@@ -14,7 +14,7 @@ RUN \
     \
     && apk add --no-cache \
         icu-data-full=78.1-r0 \
-        nginx=1.30.4-r1 \
+        nginx=1.30.6-r0 \
         nodejs=24.18.1-r0 \
         yarn=1.22.22-r1 \
     \
