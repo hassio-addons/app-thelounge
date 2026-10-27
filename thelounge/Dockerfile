@@ -10,7 +10,7 @@ RUN \
         g++=15.2.0-r5 \
         git=2.54.0-r0 \
         make=4.4.1-r4 \
-        python3=3.14.8-r0 \
+        python3=3.14.10-r1 \
     \
     && apk add --no-cache \
         icu-data-full=78.1-r0 \
